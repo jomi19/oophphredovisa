@@ -4,24 +4,14 @@ title: "Min fina titel"
 Min me-sida i kursen oophp
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=400&a=4,27,11,0&cf&sharpen" class="right" caption="Bild på mig, ätandes glass och hållandes ett kort på någon jultillställning."]
+[FIGURE src="image/me.jpg?w=400" class="right" caption="Bild på mig på ett kalas."]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Mitt namn är Joakim Mikaelsson jag är uppvuxen i Tandsbyn som är en liten by utanför Östersund. Dit flyttade jag när jag var 7år gammal och det man gjorde på fritiden där var mest att vara ute i skogen och bygga kojor eller så var man uppe på fotbollsplanen och spelade fotboll. Jag började spela fotboll i TFK som står för Tandsbyns fotbolls klubb. Jag trives bra där och bodde där tillsammans med min familj ända tills jag flyttade hemifrån.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Mitt fotbolls intresse har alltid varit en stor del i mitt liv. Det hela började med att jag alltid fick följa med och kolla på min storebrors matcher. Jag började spela för ett lag vid 6års ålder tror jag och spelade fram tills jag var 26. Sista tiden spelade jag bara då dom behövde en målvakt då jag ansåg att det tog upp för mycket tid att spela på den nivån. Idag kollar jag bara på fotboll och det är framför allt FcBarcelona som jag följer det är inte många matcher jag missar. Jag vill åka ner och kolla på en match på Camp nou men det har aldrig blivit av än.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Teknik och datorer är nått som alltid intreserat mig. Jag sparade och köpte min egna dator i delar då jag var 13 år. Jag har alltid gillat och mixtra och prova mig fram för att lära mig nya saker, jag och min kusin gjorde några Pokémon hemsidor där vi googlade fram koder som vi klippte och klistrade i. Sidorna gjorde vi då i html jag har idag kvar dom hemsidorna på skiva hemma. Jag gick tillbaka till att hålla på med hemsidor några år senare då jag i ett spel var ledare för en clan vi hade. Så jag skaffade ett phpbb forum som vi använde och gjorde även en hemsida där vi lade ut guider. Den hemsidan gjorde jag i php och den hämtade sin information från en msql databas även då gjorde jag det genom att kolla på guider och klippa, klistra och skriva om. Då var Jag runt 16 år gammal och har inte hållt på med att göra hemsidor efter det. Jag gick en c# kurs innan jag sökte till dethär programet för att prova på.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Idag bor jag med min flickvän och hennes två barn i Torvalla som är ca 10minuter ifrån östersund. Varranan vecka är jag uppe i kiruna och jobbar i en gruva vilket var långt ifrån så slitsamt jag trode det skulle vara. Mitt mål är att jag ska försöka kombinera mitt liv hemma med min flickvän och hennes barn med plugget och jobbet då jag ska försöka jobba kvar här så länge jag kan sköta mina studier samtidigt.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching, sedan turfing och nu på sistone verkar släktforskning lite spännande. Annars kan jag alltid koda på något av mina opensource-projekt, det finns och blir över.
-
-Vill du läsa mer om vad jag jobbat med så kan du kika på min [Linkedin-profil](https://www.linkedin.com/in/pt90mr/).
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael

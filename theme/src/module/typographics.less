@@ -1,0 +1,67 @@
+/*
+* General
+*/
+.highlight {
+    color: #857557;
+}
+
+
+/**
+* Header
+*/
+.inner-wrap-header {
+    color: white;   
+}
+
+/*
+* Navbar
+*/
+
+.my-navbar {
+    @font-size: 1.5 * @fontSizeBody;
+    font-size: @font-size;
+    line-height: 0;
+    text-align: center;
+}
+
+
+.rm-max.rm-navbar { // Button for right menu
+    font-size: @mainFontSize * 2;
+    color: #857557;
+}
+
+.region-breadcrumb {
+    
+    & li {
+        list-style-type: none;
+        display: inline;
+
+        & a {
+            text-decoration: none;
+        }
+    }
+    & .breadcrumb-list {
+        @font-size: 0.75 * @fontSizeBody;
+        font-size: @font-size;
+        line-height: (unit(@magicNumber) / unit(@font-size));
+        & ul {
+            & a {
+                color: @colorBody;
+            }
+        }
+    }
+}
+
+
+/*
+* Footer
+*/
+
+.footer-column a {
+    text-decoration: none;
+    color: @colorBody;
+}
+
+.site-footer {
+    text-align: center;
+}

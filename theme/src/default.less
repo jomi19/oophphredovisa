@@ -1,0 +1,70 @@
+/*!
+* LESS version of the stylesheet for design kmom10.
+* 
+*/
+
+/**
+*Import mixins
+*/
+@import "mixin/clearfix.less";
+@import "mixin/mixins.less";
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+@import "module/figure.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+/**
+* Settings
+*/
+@import "module/default.less";
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+
+/*
+* Import typohrapghic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+@import "module/typographics.less";
+
+/**
+* Import the vertical grid.
+*/
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/layout_vgrid.less";
+
+@import "base/default.less";
+
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/regions.less"; // To add style for ?regions
+@import "layout/responsive_default.less";
+
+@fontFamilyHeadings: Tangerine;
+@fontFamilyBody: Lato, sans-serif;
+

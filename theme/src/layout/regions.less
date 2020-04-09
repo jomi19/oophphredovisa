@@ -1,0 +1,146 @@
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+
+/**
+* General
+*/
+s
+
+.regions {
+    .region-header-col-1,
+    .region-header-col-2,
+    .region-header-col-3,
+    .region-flash,
+    .region-breadcrumb,
+    .region-flash-message,
+    .region-columns-above,
+    .region-main,
+    .region-after-main,
+    .region-columns-below,
+    .region-sidebar-left,
+    .region-sidebar-right,
+    .region-footer,
+    .region-footer-column-1,
+    .region-footer-column-2,
+    .region-footer-column-3 {
+        background-color: #b5dce1;
+        border: 1px solid darken(#b5dce1, 20%);
+        color: #111;
+    }
+}
+
+/**
+* Header
+*/
+// .outer-wrap-flash {
+//     background-color: @bgColorHtml;
+// }
+
+// .outer-wrap-main {
+//     background-color: @bgColorHtml;
+// }
+
+
+.inner-wrap-header {
+    background-color: @darkBg;
+    margin-bottom: 0;
+    // &::after {
+    //     background: url("img/theme/bgoverlay.png") repeat;
+    //     background-attachment: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     width:100%;
+    //     height:100%;
+    //     position: fixed;
+    //     z-index: -1;
+    // }
+}
+
+.region-header-col-2 {
+    height: @magicNumber * 2;
+}
+
+.my-navbar {
+    height: @magicNumber * 2;
+    & li {
+        
+        &:hover {
+            .hover(@dark1, @dark3);
+        }
+    }
+}
+
+.inner-wrap-main {
+    background-color: @bgColorBody;
+    position: relative;
+    max-width: 1100px;
+    // border-top-left-radius: @magicNumber;
+    // border-top-right-radius: @magicNumber;
+    border: 5px solid @bgColorBody;
+}
+
+.wrap-sidebar img {
+    border-radius: 15%;
+    opacity: 0.7;
+    transition: transform .2s;
+    &:hover {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+.breadcrumb-list ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    #desinax-hgrid.fontSize(0.75em);
+    line-height: 2.5;
+
+    // @fontSizeBody = 16px;
+    // font-size: @fontSizeBody;
+    // line-height: (unit(@magicNumber) / unit(@fontSizeBody));
+
+    
+    &::after {
+        content: " /\00a0";  
+    }
+    &:last-child::after {
+        content: "";
+    }
+
+}
+
+/*
+* Content
+*/
+
+.blog-list-item {
+    transition: transform .05s;
+    &:hover {
+        opacity: 1;
+        transform: scale(1.005);
+    }
+}
+
+.meta-header {
+    #desinax-hgrid.fontSize(0.75em);
+    line-height: 1.8;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+
+/*
+* Footer
+*/
+
+.outer-wrap-footer {
+    background-color: @bgColorBody;
+}
+
+code {
+    color: @Complement1;
+}

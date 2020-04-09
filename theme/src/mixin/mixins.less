@@ -1,0 +1,9 @@
+.hover(@color1, @color2) {
+    background:linear-gradient(to right, @color1, @color2, @color1);
+}
+
+.fontSize(@fontSize) {
+    font-size: @fontSize;
+    line-height: @lineHeight / unit(@fontSize) * ceil(unit(@fontSize) / @lineHeight);
+}
+

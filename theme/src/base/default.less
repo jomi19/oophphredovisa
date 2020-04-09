@@ -1,0 +1,40 @@
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    background-color: @darkBg;
+    color: @colorBody;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: @Complement5;
+}
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+
+.site-logo-text-icon img {
+    position: absolute;
+    top: 7px;
+    // left: 10px;
+    z-index: 100;
+}
+
+
+
+
+
+#desinax-hgrid.activateDefaultTypography();

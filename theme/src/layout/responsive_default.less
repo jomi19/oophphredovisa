@@ -1,0 +1,71 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo-text-icon img {
+
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .inner-wrap-main {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .region-main.has-sidebar-left,
+    .region-main.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-right,
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .inner-wrap-main {
+        top: -6px
+    }
+}
+
+@media screen and (max-width: 460px) {
+ 
+    .site-logo-text-icon img {
+        top: 0;
+        left: 2px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .my-navbar {
+        font-size: @fontSizeBody;
+        line-height: @magicNumber;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-flash {
+        display: none;
+    }
+
+    .breadcrumb-list {
+        display: none;
+    }
+ }
+
+ @media screen and (max-width: 300px) {
+    .rm-small {
+        display: block;
+    }
+             
+    .rm-desktop {
+        display: none;
+    }
+}
+
