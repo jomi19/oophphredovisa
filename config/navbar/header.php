@@ -49,9 +49,9 @@ return [
             "title" => "Dokumentation av ramverk och liknande.",
         ],
         [
-            "text" => "Test &amp; Lek",
-            "url" => "lek",
-            "title" => "Testa och lek med test- och exempelprogram",
+            "text" => "Guess",
+            "url" => "guess",
+            "title" => "Gissa nummret!",
         ],
         [
             "text" => "Anax dev",

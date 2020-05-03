@@ -8,6 +8,8 @@
         <target>doc/api</target>
     </transformer>
     <files>
-        <directory>src</directory>
+        <directory>src/</directory>
+        <ignore>src/Controller/*</ignore>
+        <ignore>src/Page/*</ignore>
     </files>
 </phpdoc>
